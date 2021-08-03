@@ -1,4 +1,4 @@
-/* Hello, My name is Eli Konarski*/
+/* Hello, My name is Eli Konarski. Time of uplaod to git hub, 08/2/2021. check out the readme.md for more info*/
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 unsigned long event = 940;
