@@ -21,13 +21,13 @@ unsigned long  int hourPassed = 15;
 unsigned long  int minutsPassedALARM = 0;
 unsigned long  int hourPassedALARM = 16;
 void setup() {
-  Serial.begin(9600);
+  
   lcd.begin(16, 2);
   pinMode(LED1, OUTPUT);
   pinMode(btn1, INPUT);    
   pinMode(btn2, INPUT);                                                                                                                                                                                                                                                                                      
   pinMode(btn3, INPUT);                                                                                                                                                                                                                                                                     }
-
+}
 
 void updateClock() {
   // this is essantally a usless delay, the only thing it does it avoids visual glitches.
